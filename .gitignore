@@ -1,0 +1,11 @@
+# Ignore image data
+Imagenet100/train.X1/
+Imagenet100/train.X2/
+Imagenet100/train.X3/
+Imagenet100/train.X4/
+Imagenet100/val.X/
+
+# Ensure embeddings and labels are not ignored
+!Imagenet100/train_embeddings/
+!Imagenet100/val_embeddings/
+!Imagenet100/Labels.json
