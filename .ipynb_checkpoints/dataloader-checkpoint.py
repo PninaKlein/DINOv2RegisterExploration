@@ -44,3 +44,20 @@ def load_imagenet_data(root_dir, class_labels, val_folder, train_folders):
     df_val = pd.DataFrame(val_images)
 
     return df_train, df_val
+
+
+def load_labels_mapping(root_dir: str, labels_filename: str) -> dict:
+    """
+    Load the labels mapping from the specified directory.
+    
+    Args:
+        root_dir (str): Root directory where the dataset is stored.
+        labels_filename (str): Name of the JSON file containing the labels mapping.
+    
+    Returns:
+        dict: A dictionary with labels mapping.
+    """
+    labels_file = os.path.join(root_dir, labels_filename)
+    with open(labels_file, 'r') as f:
+        labels_mapping = json.load(f)
+    return labels_mapping
