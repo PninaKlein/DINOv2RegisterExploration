@@ -15,6 +15,9 @@ For this project, we used the `COCO2014 Dataset` from Hugging Face.
 from datasets import load_dataset
 ds = load_dataset("detection-datasets/coco")
 ```
+We also used the COCO 2017 Dataset from the following website: 
+https://cocodataset.org/#download
+
 
 ## Precomputed Embeddings
 
