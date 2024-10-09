@@ -4,6 +4,7 @@ import os
 import json
 from tqdm import tqdm
 from PIL import Image
+from model_utils import image_transform
 
 def compute_embeddings(files, model, device):
     """
