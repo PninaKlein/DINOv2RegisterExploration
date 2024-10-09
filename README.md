@@ -33,5 +33,19 @@ If you want to recompute the embeddings for validation or testing purposes, you 
 
 ```bash
 python compute_embeddings.py
+```
+
+## Notebooks
+
+Please find the working code of this project in the `notebooks` folder.
+
+- **AttentionMaps**: Contains the functions used to extract the attention maps from DINOv2.  
+  Note: To properly extract the attention maps, we had to modify some original DINOv2 functions (the modified version is attached in this repository under `dinov2`). Running the function with the original DINOv2 code will not work.
+
+- **ImageNet100**: Register exploration and classification models on the ImageNet100 (Image Classification) dataset.
+
+- **COCO2014**: Register exploration and classification models on the COCO 2014 (Object Detection) dataset.
+
+- **COCO2017**: Register exploration and classification models on the COCO 2017 (Object Detection) dataset.
 
 
