@@ -37,7 +37,8 @@ python compute_embeddings.py
 
 ## Notebooks
 
-Please find the working code of this project in the `notebooks` folder.
+Please find the working code of this project in the `notebooks` folder. 
+If you are checking this project the files should be read in the following order:
 
 - **AttentionMaps**: Contains the functions used to extract the attention maps from DINOv2.  
   Note: To properly extract the attention maps, we had to modify some original DINOv2 functions (the modified version is attached in this repository under `dinov2`). Running the function with the original DINOv2 code will not work.
