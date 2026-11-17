@@ -1,0 +1,14 @@
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+scikit-image
+matplotlib
+opencv-python
+Pillow
+tqdm
+datasets
+pycocotools
+requests
+ipython

@@ -1,11 +1,17 @@
-# Ignore image data
+# Image data (download separately; see README)
 Imagenet100/train.X1/
 Imagenet100/train.X2/
 Imagenet100/train.X3/
 Imagenet100/train.X4/
 Imagenet100/val.X/
 
-# Ensure embeddings and labels are not ignored
-!Imagenet100/train_embeddings/
-!Imagenet100/val_embeddings/
-!Imagenet100/Labels.json
+# Precomputed embeddings and model weights (regenerate with compute_embeddings.py; see README)
+Imagenet100/train_embeddings/
+Imagenet100/val_embeddings/
+*.pth
+
+# Python / Jupyter leftovers
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
